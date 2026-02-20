@@ -1,0 +1,6 @@
+body {
+    background-color: var(--color-background);
+    font-family:'Courier New', Courier, monospace;
+    color: var(--color-text);
+    margin: 56px;
+}
