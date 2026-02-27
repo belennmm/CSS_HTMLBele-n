@@ -1,0 +1,21 @@
+:root {
+  --bg-dark: #0f1220;
+
+  --bg-glow: radial-gradient(circle at 30% 20%, rgba(255, 183, 77, 0.25), transparent 40%),
+    radial-gradient(circle at 80% 70%, rgba(186, 104, 200, 0.2), transparent 40%),
+    linear-gradient(180deg, #0f1220, #1a1f3a);
+
+  --text-main: #ffffff;
+
+  --text-soft: rgba(255,255,255,0.75);
+
+  --accent-gold: #ffce7a;
+
+  --accent-pink: #ff80df;
+
+  --border-soft: rgba(255,255,255,0.15);
+  
+  --shadow-glow: 0 0 30px rgba(255, 206, 122, 0.25);
+
+  --radius: 18px;
+}
