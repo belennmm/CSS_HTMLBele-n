@@ -87,3 +87,51 @@ a:hover {
   box-shadow: 0 0 35px rgba(255,128,223,0.8);
 }
 
+footer {
+  margin-top: 40px;
+  color: rgba(255,255,255,0.6);
+  font-size: 13px;
+}
+
+button {
+    padding: 12px 20px;
+    border-radius: 999px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 14px;
+}
+
+.btn-gold {
+    background: linear-gradient(45deg, #ffce7a, #ffb347);
+    color: #000;
+    box-shadow: 0 0 15px rgba(255, 206, 122, 0.6);
+}
+
+.btn-gold:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 35px rgba(255, 206, 122, 0.9);
+}
+
+.btn-azulito {
+    background: linear-gradient(45deg, #63f6ff, #4facfe);
+    color: #000;
+    box-shadow: 0 0 15px rgba(99, 246, 255, 0.6);
+}
+
+.btn-azulito:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 35px rgba(99, 246, 255, 0.9);
+}
+
+.btn-danger {
+    background: linear-gradient(45deg, #ff6b6b, #ff0000);
+    color: white;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
+}
+
+.btn-danger:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 35px rgba(255, 0, 0, 0.9);
+}
