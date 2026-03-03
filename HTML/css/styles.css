@@ -9,6 +9,7 @@ body {
 }
 
 
+
 h1 {
   font-size: var(--px-53);
   letter-spacing: var(--baby-px);
@@ -103,11 +104,24 @@ a:hover {
 ul {
   list-style: none;
   padding: 0;
+  
+}
+
+.ul-flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--px-12);
 }
 
 li {
   font-size: var(--medium-px);
   padding: 0;
+
+}
+
+.li-flex{
+  display: flex;
 }
 
 .li-charla{
@@ -194,6 +208,13 @@ table {
     align-items: center;
     align-self: auto;
      margin: var(--px-12) auto;
+}
+
+table{
+  width: min(100%, var(--max-width));
+}
+td, th{
+  padding: var(--px-12);
 }
 
 details {
