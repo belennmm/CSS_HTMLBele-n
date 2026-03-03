@@ -15,13 +15,78 @@
 
   --text-suave-3: rgba(235, 255, 253, 0.81) ;
 
+  --text-sombra: rgba(255,206,122,0.6);
+
+  --background-1: rgba(255, 255, 255, 0.05);
+
+  --box-sombra-1: rgba(255,128,223,0.8);
+
+  --box-sombra-2: rgba(255, 206, 122, 0.9);
+
+  --box-sombra-3: rgba(99, 246, 255, 0.6);
+
+  --box-sombra-4: rgba(255, 0, 0, 0.6);
+
+  --box-sombra-5: rgba(222, 216, 220, 0.25);
+
+  --box-sombra-6: rgba(255,255,255,0.05 );
+
+  --box-sombra-7: rgba(99, 247, 255, 0.339);
+
+  --box-sombra-8: rgba(99, 246, 255, 0.1 );
+  
+
+  --shadow-1: rgba(0, 0,0,0.5);
+
+  /* detalles */
+
   --realce-gold: #ffce7a ;
 
+  --realce-gold-2: #ffb347;
+
   --realce-pink:#ff80df ;
+
+  --realce-blue: #63f6ff;
+  --realce-blue-2: #4facfe;
+
+  --realce-red: #ff6b6b;
+  --realce-red-2: #ff0000;
+
+  --black: #000;
+  --white: #fff;
 
   --borde-soft: rgba(255, 255, 255, 0.196);
   
   --shadow-brillo: 0 0 30px rgba(255, 226, 122, 0.25);
 
+  /* transición */
+  --trans-fast: 0.2s ease;
+  --trans-med: 0.3s ease;
+  --trans-slow: 0.5s ease;
+
+  /* escala del hov */
+  --scale-img-hov: 1.05;
+  --scale-btn-hov: 1.10;
+  --scale-link-hov: 1.08;
+
+  /* radio */
+  --radio-btn: 1000px;
   --radius: 20px;
+
+  /* espacio */
+  --standard-px: 30px;
+  --medium-px: 25px;
+  --larger-px: 40px;
+  --baby-px: 5px;
+  --px-12: 12px;
+  --px-15: 15px;
+  --px-18: 18px;
+  --px-22: 22px;
+  --px-53: 53px;
+  --percentage-standard: 80%;
+
+  /* los fonts */
+  --main-font: "Segoe UI", serif;
+  --font-titulo: fangsong;
+
 }
