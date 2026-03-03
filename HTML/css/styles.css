@@ -241,12 +241,18 @@ details[open] {
     box-shadow: 0 0 var(--px-15) var(--box-sombra-7);
 }
 
+.grid-final{
+  display: grid;
+  gap: var(--standard-px);
+  align-items: center;
+}
+
 /* para responsive */
 img {
   max-width: var(--max-w-percentage);       
 }
 
-.ul-flex a,
+a,
 .ul-flex button {
   max-width: var(--max-w-percentage );
   white-space: normal;
@@ -345,4 +351,10 @@ table{
 
   h1{ font-size: var(--px-40); }
 
+}
+
+@media (min-width: 700px){
+  .grid-final{
+    grid-template-columns: 1fr 1fr;
+  }
 }
