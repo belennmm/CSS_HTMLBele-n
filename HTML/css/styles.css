@@ -195,7 +195,7 @@ button {
 .btn-regresar {
   background: radial-gradient(circle, var(--box-sombra-5), transparent 40%);
   color: var(--black);
-  font: bold;
+  font-weight: bold;
   padding: none;
   font-size: var(--medium-px);
 
@@ -239,4 +239,110 @@ details[open] {
     background: var(--box-sombra-8) ;
     border-color: var(--realce-blue) ;
     box-shadow: 0 0 var(--px-15) var(--box-sombra-7);
+}
+
+/* para responsive */
+img {
+  max-width: var(--max-w-percentage);       
+}
+
+.ul-flex a,
+.ul-flex button {
+  max-width: var(--max-w-percentage );
+  white-space: normal;
+  word-break: break-word ;
+}
+
+.ul-flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+  gap: var(--px-12);
+}
+
+.ul-flex li{
+  width: var(--max-w-percentage);
+  max-width: var(--btn-max-w) ;
+}
+
+
+.ul-flex li a button {
+  width: var(--max-w-percentage );
+}
+
+
+table{
+  
+ 
+  overflow-x: auto; 
+}
+
+
+
+@media (max-width: 230px) {
+
+  body{
+    padding: var(--px-12) var(--px-10) ;
+  }
+
+  h1{
+    font-size: var(--px-20) ;
+    letter-spacing: var(--baby-px);
+  }
+
+  h2{
+    font-size: var(--px-14) ;
+  }
+
+  section {
+    padding: var(--px-10) ;
+    margin: var(--px-12) auto ;
+    border-radius: var(--px-12 );
+  }
+
+  .p-nota{
+    font-size: var(--px-12 );
+  }
+
+  button{
+    font-size: var(--px-12);
+    padding: var(--px-10) ;
+  }
+
+  .ul-flex li{
+    max-width: var(--max-w-percentage) ;
+  }
+}
+
+
+
+@media (min-width: 360px) {
+
+  h1{ font-size: var(--px-28);}
+  h2{ font-size: var(--px-16);}
+
+}
+
+
+
+@media (min-width: 600px) {
+
+  .ul-flex{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .ul-flex li{
+    width: auto;
+    max-width: none;
+  }
+
+  .ul-flex li a button{
+    width: auto;
+    min-width: var(--btn-max-w);
+  }
+
+  h1{ font-size: var(--px-40); }
+
 }

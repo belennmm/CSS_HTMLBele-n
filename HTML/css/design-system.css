@@ -78,13 +78,23 @@
   --medium-px: 25px;
   --larger-px: 40px;
   --baby-px: 5px;
+  
+  --px-10: 10px;
   --px-12: 12px;
   --px-15: 15px;
+  --px-14: 14px;
+  --px-16: 16px;
   --px-18: 18px;
+  --px-20: 20px;
+  --px-28: 28px;
   --px-22: 22px;
+  --px-40: 40px;
   --px-53: 53px;
+
   --percentage-standard: 80%;
   --max-width: 980px;
+  --max-w-percentage: 100%;
+  --btn-max-w: 420px;
 
   /* los fonts */
   --main-font: "Segoe UI", serif;
