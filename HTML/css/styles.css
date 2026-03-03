@@ -33,6 +33,7 @@ h2 {
 .p-nota {
   font-size: 18px;
   font-style: italic;
+  margin-top: 30px;
 }
 
 
@@ -101,6 +102,22 @@ ul {
 li {
   font-size: 20px;
   padding: 0;
+}
+
+.li-charla{
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--text-suave-2);
+  margin-top: 5px;
+  font-style: italic;
+}
+
+.li-charla-2{
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--text-suave-3);
+  margin-top: 5px;
+  font-style: italic;
 }
 
 
