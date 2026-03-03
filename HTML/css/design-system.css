@@ -1,21 +1,23 @@
 :root {
+  /* los fondos*/
   --bg-dark: #0f1220;
 
   --bg-glow: radial-gradient(circle at 30% 20%, rgba(255, 183, 77, 0.25), transparent 40%),
     radial-gradient(circle at 80% 70%, rgba(186, 104, 200, 0.2), transparent 40%),
     linear-gradient(180deg, #0f1220, #1a1f3a);
 
-  --text-main: #ffffff;
+    /* los texts*/
+  --text-principal:#ffffff ;
 
-  --text-soft: rgba(255,255,255,0.75);
+  --text-suave: rgba(255,255 ,255 ,0.75) ;
 
-  --accent-gold: #ffce7a;
+  --realce-gold: #ffce7a ;
 
-  --accent-pink: #ff80df;
+  --realce-pink:#ff80df ;
 
-  --border-soft: rgba(255,255,255,0.15);
+  --borde-soft: rgba(255, 255, 255, 0.196);
   
-  --shadow-glow: 0 0 30px rgba(255, 206, 122, 0.25);
+  --shadow-brillo: 0 0 30px rgba(255, 226, 122, 0.25);
 
-  --radius: 18px;
+  --radius: 20px;
 }
