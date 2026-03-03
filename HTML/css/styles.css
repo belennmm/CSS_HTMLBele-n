@@ -69,6 +69,11 @@ section {
   box-shadow: 0 15px 40px rgba(0, 0,0,0.5) ;
 } 
 
+footer {
+  margin-top: 40px;
+  color: rgba(255,255,255,0.6);
+  font-size: 16px;
+}
 
 
 a {
@@ -94,6 +99,7 @@ a:hover {
 }
 
 
+/* listas */
 ul {
   list-style: none;
   padding: 0;
@@ -121,13 +127,7 @@ li {
 }
 
 
-footer {
-  margin-top: 40px;
-  color: rgba(255,255,255,0.6);
-  font-size: 16px;
-}
-
-
+/* botones*/
 button {
     padding: 15px 22px;
     border-radius: 1000px;
@@ -185,4 +185,37 @@ button {
   padding: none;
   font-size: 20px;
 
+}
+
+
+/* tabla */
+table {
+    align-content: center;
+    align-items: center;
+    align-self: auto;
+     margin: 30px auto;
+}
+
+details {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 9px 15px;
+    cursor: pointer;
+    transition: all 0.3s ease ;
+    
+}
+
+details:hover {
+    background: rgba(255,255,255,0.05 );
+}
+
+summary {
+    font-weight: bold;
+    color: #62eef5 ;
+}
+
+
+details[open] {
+    background: rgba(99, 246, 255, 0.1 ) ;
+    border-color: #63f6ff ;
+    box-shadow: 0 0 15px rgba(99, 247, 255, 0.339);
 }

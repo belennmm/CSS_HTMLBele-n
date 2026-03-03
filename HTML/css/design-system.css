@@ -3,7 +3,7 @@
   --bg-dark: #0f1220;
 
   --bg-glow: radial-gradient(circle at 30% 20%, rgba(255, 183, 77, 0.25), transparent 40%),
-    radial-gradient(circle at 80% 70%, rgba(186, 104, 200, 0.2), transparent 40%),
+    radial-gradient( circle at 80% 70%, rgba(186, 104, 200, 0.2), transparent 40%),
     linear-gradient(180deg, #0f1220, #1a1f3a);
 
     /* los texts*/
